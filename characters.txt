@@ -7,3 +7,65 @@ open up VIM (not a very beginner friendly editor) in your terminal (use ;Q to ge
 
 -> git gommit -m "add message here" - 
 
+adding some new characters
+				Git (Section 4)
+What is a repo?
+
+A repository, or "repo" for short, is a coding project's files and the revision history for each file. 
+Once you've set up a repository on GitHub, you can copy it to your device, add and modify files locally, 
+then "push" your changes back to the repository where your changes display for the public.
+
+-> git status
+-> git init
+	Only have one repo in a project, check it with git status before creating it!
+
+	Comitting
+How to commit?
+-> git add filename
+-> git add
+
+-> git commit - this will make a commit with whatever changes have been staged. However,
+it will try and use a default editor,  most students don't have one congifured, it will	
+open up VIM (not a very beginner friendly editor) in your terminal (use ;Q to get out of it)
+
+-> git commit -  better use git commit -m "add message here"
+-> git commit -m "add message here"  
+
+-> git log
+
+		
+				Git (Section 5)
+		Git Ignore
+		Atomic Commits
+		Configuring Default Editor(Mac)
+		Writing Good Commit Messaged
+		Amending Commits
+		Navigating the Git Documentation
+		Working with a GUI
+	
+
+	The Git Docs
+https://git-scm.com/docs
+There's also a Book.
+
+	Atomic Commits
+Keep the commits atomic. Focused on a single thing.
+Use present tense or past tense. Imperetive style like giving orders.
+
+	Configuring VIM(editor) & Git's default editor
+https://git-scm.com/book/en/v2/Appendix-C%3A-Git-Commands-Setup-and-Config
+
+-> git commit - opens up the default editor and it's likely to be VIM
+
+Editor Visual Studio Code
+git config --global core.editor "code --wait"
+
+I want to use notepad
+git config core.editor notepad
+
+	Closer look at the Git Log Command
+commit 2ac0c51100a7f5ffba8bef66daa0223d1ff350c6 - commit hash
+--oneline
+-> git log --oneline
+	
+	Commit with a GUI
