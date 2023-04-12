@@ -1,1 +1,9 @@
-A repository, or "repo" for short, is a coding project's files and the revision history for each file. Once you've set up a repository on GitHub, you can copy it to your device, add and modify files locally, then "push" your changes back to the repository where your changes display for the public.
+A repository, or "repo" for short, is a coding project's files and the revision history for each file. 
+Once you've set up a repository on GitHub, you can copy it to your device, add and modify files locally, then "push" your changes back to the repository where your changes display for the public.
+
+-> git gommit - this will make a gommit with whatever changes have been staged. However,
+it will try and use a default editor,  most students don't have one congifured, it will	
+open up VIM (not a very beginner friendly editor) in your terminal (use ;Q to get out of it)
+
+-> git gommit -m "add message here" - 
+
