@@ -12,3 +12,4 @@ open up VIM (not a very beginner friendly editor) in your terminal (use ;Q to ge
 
 -> git gommit -m "add message here" - 
 
+VIM editor
