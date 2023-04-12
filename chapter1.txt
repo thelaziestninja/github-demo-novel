@@ -4,4 +4,3 @@ open up VIM (not a very beginner friendly editor) in your terminal (use ;Q to ge
 
 -> git commit -m "add message here" - 
 
--> git log - retrieves information like "git status" 
