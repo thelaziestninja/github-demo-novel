@@ -1,0 +1,5 @@
+-> git commit - this will make a commit with whatever changes have been staged. However,
+it will try and use a default editor,  most students don't have one congifured, it will	
+open up VIM (not a very beginner friendly editor) in your terminal (use ;Q to get out of it)
+
+-> git commit -m "add message here" - 
